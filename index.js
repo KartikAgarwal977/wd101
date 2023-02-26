@@ -1,6 +1,5 @@
 let element = (id) => document.getElementById(id);
 let classes = (classes) => document.getElementsByClassName(classes);
-localStorage.removeItem(); 
 let username = element('name'),
     email = element('email'),
     dob = element('dob'),
